@@ -9,12 +9,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: fit-content;
   background-color: black;
   overflow: auto;
-  
 }
 
 .navbar a {
   float: left;
-  padding: 12px;
+  padding: 15px;
   color: white;
   text-decoration: none;
   font-size: 17px;
@@ -35,12 +34,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
 }
 
+
+
 * {box-sizing: border-box;}
 
 .container {
   position: relative;
   width: 50%;
   max-width: 300px;
+  padding: 20px;
+  float: left;
 }
 
 .image {
@@ -67,6 +70,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .container:hover .overlay {
   opacity: 1;
 }
+
+.tekst{
+  padding: 20px;
+  display: block;
+  width: 55%;
+  text-align: justify;
+}
 </style>
 <body>
 <!-- -----------------------------------------TITLE--------------------------------------------------- -->
@@ -81,8 +91,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <!-- ---------------------------------PROFILE PICTURE--------------------------------------------- -->
 <div class="container">
-  <img src="profilna.png" alt="Avatar" class="image">
+  <img src="profilna.png" alt="profilepicture" class="image">
   <div class="overlay">My Name is Lea</div>
+</div>
+
+<div class="tekst"> 
+ Bok, moje ime je Varžić Lea. Studiram Informatiku u Puli. Trenutno sam treća godina preddiplomskog studija,
+  te se u slobodno vrijeme bavim fotografijom. Volim kodirati, te će ovo biti primjer moje osobne web stranice. 
 </div>
 </body>
 </html>
